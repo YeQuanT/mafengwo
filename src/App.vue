@@ -3,10 +3,26 @@
     <div id="nav">
       <el-container>
         <el-header>
-头
+          <el-col :span="4" class="br" push="2">1</el-col>
+          <el-col :span="11" class="br" push="2">2</el-col>
+          <el-col :span="5" class="br" push="2">3</el-col>
         </el-header>
+            <el-row id="main-img" class="br">
+                <el-col :span="24">
+
+                </el-col>
+            </el-row>
+
         <el-main>
-主体
+          <el-row>
+            <el-col id="main-col" :span="18" pull="3" push="3" class="br">
+              <el-row>
+                <el-col id="main-nav" :span="24" class="br"></el-col>
+              </el-row>
+              <el-col id="main-left" :span="8" class="br"></el-col>
+              <el-col id="main-rigth" :span="15" push="1" class="br"></el-col>
+            </el-col>
+          </el-row>
         </el-main>
 
         <el-footer>
@@ -39,6 +55,22 @@ export default {
 .el-main{
   background-color: rgb(0, 255, 115);
   text-align: center;
+  height: 1200px;
+}
+#main-img{
+  height: 450px;
+  background-color: bisque;
+}
+#main-col{
+  height: 1100px;
+}
+#main-nav{
+  height: 100px;
+}
+#main-left{
   height: 1000px;
+}
+#main-rigth{
+  height: 900px;
 }
 </style>
