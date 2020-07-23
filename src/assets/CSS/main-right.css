@@ -1,0 +1,48 @@
+.title-rmyj:hover {
+    color: #ffb500;
+    border-bottom: 3px solid #ffb500;
+  }
+  .title-zxfb:hover {
+    color: #ffb500;
+    border-bottom: 3px solid #ffb500;
+  }
+  .main-body {
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .title-rmyj {
+  }
+  .wrire-yj {
+    background-color: #ffb500;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  .wrire-yj:hover {
+    background-color: #ff8a00;
+  }
+  .main-right-col{text-align: left;}
+  .main-right-title{
+      width: 80%;
+      white-space: nowrap;/*内容超宽后禁止换行显示*/
+              overflow: hidden;/*超出部分隐藏*/
+              text-overflow:ellipsis;
+        line-height: 300%;
+        font-size: 17px;
+  }
+  .main-right-text{
+      line-height: 150%;
+      height: 90px;
+      overflow: hidden;/*超出部分隐藏*/
+              text-overflow:ellipsis;
+  }
+  .main-right-time{
+      
+  }
+  .main-right-d{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .main-right-time-d{
+    /* background-color: #ff8a00; */
+  }

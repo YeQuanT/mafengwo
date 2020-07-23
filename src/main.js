@@ -6,8 +6,12 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import "assets/CSS/base.css"
 
+// import Swiper from "swiper";
+// import "swiper/swiper-bundle.min.css";
+
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+// Vue.use(Swiper)
 
 new Vue({
   router,
