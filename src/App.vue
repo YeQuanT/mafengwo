@@ -5,13 +5,13 @@
       <el-container>
         <!-- 头 -->
         <el-header>
-          <el-col :span="3" class="br" push="2">
+          <el-col :span="3" id="app-logo" push=2>
             <img src="@/assets/images/Snipaste_2020-07-22_11-01-52.png" alt="" srcset="">
           </el-col>
-          <el-col :span="14" class="br" push="2">
+          <el-col :span="14" push=2>
             <MyNav></MyNav>
           </el-col>
-          <el-col :span="3" class="br" push="2">3</el-col>
+          <el-col :span="3" class="br" push=2>3</el-col>
         </el-header>
         <router-view>
 
@@ -74,5 +74,8 @@ export default {
 }
 #main-rigth{
   height: 900px;
+}
+#app-logo{
+  margin-top: 8px;
 }
 </style>

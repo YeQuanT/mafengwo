@@ -7,6 +7,9 @@
     list-style: none;
     border:1px solid #e5e5e5;
     border-radius: 5px;
+    background-image: url('~assets/images/mainNav-loginBg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #main-nav ul li a{
     text-decoration: none;
@@ -14,6 +17,7 @@
     color:#000
 }
 .main-nav-title{
+    background-size: 100%;
     text-align: left;
     padding-left: 5px;
     line-height: 150%;
@@ -26,3 +30,11 @@
     font-size: 14px;
     color: #9d9d9d;
 }
+
+.a{background-position:51px -930px;}
+.b{background-position: 51px -43px;}
+.c{background-position: 56px -190px;}
+.d{background-position: 51px -635px;}
+.e{background-position: 51px -780px;}
+.f{background-position: 51px -480px;}
+.g{background-position: 51px -335px;}
