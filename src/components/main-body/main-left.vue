@@ -7,7 +7,7 @@
         </el-row>
         
         <div class="main-left-1 br">
-            <ElCol class="main-left-title" :span="12"><a href="#">旅行家专栏</a></ElCol>
+            <ElCol class="main-left-title" :span="12"><a href="#">旅行家专栏1</a></ElCol>
             <ElCol class="main-left-lxsy" :span="12"><a href="#">专栏首页</a></ElCol>
         </div>
         <div class="main-left-1 br"></div>
