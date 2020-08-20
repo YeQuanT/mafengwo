@@ -1,48 +1,97 @@
 .title-rmyj:hover {
-    color: #ffb500;
-    border-bottom: 3px solid #ffb500;
-  }
-  .title-zxfb:hover {
-    color: #ffb500;
-    border-bottom: 3px solid #ffb500;
-  }
-  .main-body {
-    border-bottom: 1px solid #e4e4e4;
-  }
-  .title-rmyj {
-  }
-  .wrire-yj {
-    background-color: #ffb500;
-    color: #fff;
-    line-height: 40px;
-    border-radius: 5px;
-    margin: 10px 0;
-  }
-  .wrire-yj:hover {
-    background-color: #ff8a00;
-  }
-  .main-right-col{text-align: left;}
-  .main-right-title{
-      width: 80%;
-      white-space: nowrap;/*内容超宽后禁止换行显示*/
-              overflow: hidden;/*超出部分隐藏*/
-              text-overflow:ellipsis;
-        line-height: 300%;
-        font-size: 17px;
-  }
-  .main-right-text{
-      line-height: 150%;
-      height: 90px;
-      overflow: hidden;/*超出部分隐藏*/
-              text-overflow:ellipsis;
-  }
-  .main-right-time{
-      
-  }
-  .main-right-d{
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .main-right-time-d{
-    /* background-color: #ff8a00; */
-  }
+  color: #ffb500;
+  border-bottom: 3px solid #ffb500;
+}
+
+.title-zxfb:hover {
+  color: #ffb500;
+  border-bottom: 3px solid #ffb500;
+}
+
+.main-body {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.title-rmyj {}
+
+.wrire-yj {
+  background-color: #ffb500;
+  color: #fff;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.wrire-yj:hover {
+  background-color: #ff8a00;
+}
+
+.main-right-col {
+  text-align: left;
+}
+
+.main-right-title {
+  width: 80%;
+  white-space: nowrap;
+  /*内容超宽后禁止换行显示*/
+  overflow: hidden;
+  /*超出部分隐藏*/
+  text-overflow: ellipsis;
+  line-height: 300%;
+  font-size: 17px;
+}
+
+.main-right-text {
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+  height: 60px;
+  display: -moz-box;
+  display: -webkit-box;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.main-right-time {
+  line-height: 20px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.main-right-d {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-right-time-d {
+  /* background-color: #ff8a00; */
+}
+
+#main_right-img {
+  width: 100%;
+}
+#main-right-item{
+  padding:15px 0;
+}
+#main-right-item:hover{
+  background-color: #f8f8f8;
+}
+#main-right-item-icon{
+  border-radius: 50%;
+  width: 10px;
+}
+.main-right-item-time{
+  margin-top: 20px;
+}
+.pd05{
+  padding-left: 0.5em
+}
+.main-right-item-time .name{
+  color: #ff8a00;
+}
+.main-right-time img{
+  padding-left: 8px;
+}

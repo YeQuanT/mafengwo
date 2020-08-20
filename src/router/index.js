@@ -10,7 +10,7 @@ const r_hotel=()=>import('views/hotel/hotel.vue')
 const sales_index=()=>import('views/sales/index.vue')
 const r_wenda=()=>import('views/community/wenda.vue')
   const routes = [
-    { path: '', component: r_index },
+    { path: '/', component: r_index, },
     { path: '/mdd', component: r_mdd },
     { path: '/gonglve', component: r_gonglve },
     { path: '/flight', component: r_flight },

@@ -8,7 +8,7 @@
       @select="handleSelect"
       router
     >
-      <el-menu-item index="/" route="">首页</el-menu-item>
+      <el-menu-item index="/">首页</el-menu-item>
       <el-menu-item index="mdd">目的地</el-menu-item>
       <el-menu-item index="gonglve">旅游攻略</el-menu-item>
       <el-submenu index="4">
@@ -33,7 +33,7 @@
 export default {
   data() {
     return {
-      activeIndex: "1",
+      activeIndex: "/",
       text_color: "#ff9d00",
     };
   },

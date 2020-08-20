@@ -5,22 +5,22 @@
       <el-container>
         <!-- 头 -->
         <el-header>
-          <el-col :span="3" id="app-logo" push=2>
+          <el-col :span="3" id="app-logo" :push="2">
             <img src="@/assets/images/Snipaste_2020-07-22_11-01-52.png" alt="" srcset="">
           </el-col>
-          <el-col :span="14" push=2>
+          <el-col :span="14" :push="2">
             <MyNav></MyNav>
           </el-col>
-          <el-col :span="3" class="br" push=2>3</el-col>
+          <el-col :span="3" class="br" :push="2">3</el-col>
         </el-header>
         <router-view>
 
         </router-view>
         <!-- 图片 -->
-            
+
         <!-- 尾部 -->
         <el-footer>
-尾部
+          尾部
         </el-footer>
 
       </el-container>
@@ -42,7 +42,7 @@ export default {
     MyNav
   },
   created(){
-    
+
   },
   methods:{
 
@@ -54,14 +54,12 @@ export default {
   }
 .el-main{
   text-align: center;
-  height: 1200px;
 }
 #main-img{
   height: 450px;
   background-color: bisque;
 }
 #main-col{
-  height: 1100px;
 }
 #main-nav{
   height: 60px;
@@ -70,10 +68,8 @@ export default {
   margin-bottom: 10px;
 }
 #main-left{
-  height: 1000px;
 }
 #main-rigth{
-  height: 900px;
 }
 #app-logo{
   margin-top: 8px;

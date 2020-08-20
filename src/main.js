@@ -8,7 +8,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import "assets/CSS/base.css"
 import 'swiper/swiper-bundle.css'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 Vue.use(ElementUI)
 Vue.use(vueSwiper)
 
